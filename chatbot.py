@@ -61,11 +61,11 @@ try:
     st.image("https://media3.giphy.com/media/S60CrN9iMxFlyp7uM8/200w.webp?cid=ecf05e47938v1hebb1bs1m9uysov7g7iws0j52oqku2k0yua&rid=200w.webp")
     st.markdown("Hi I'm Samonit")
     #print("bot is live")
-    while True:
-        message = st.text_input("You can start chat below")
-        ints = predict_class(message)
-        res = get_response(ints,intents)
-        st.write("Bot :",res)
+    
+    message = st.text_input("You can start chat below")
+    ints = predict_class(message)
+    res = get_response(ints,intents)
+    st.write(res)
 except:
   # Prevent the error from propagating into your Streamlit app.
     pass
