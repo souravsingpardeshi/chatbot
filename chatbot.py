@@ -12,6 +12,7 @@ import pickle
 import numpy as np
 import nltk
 nltk.download('punkt')
+nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 st.set_page_config(page_title="souravs_sentiment_analysis_app")
