@@ -65,7 +65,8 @@ try:
         message = st.text_input("You can start chat below")
         ints = predict_class(message)
         res = get_response(ints,intents)
-        st.write("Bot :",res)
+        
 except:
   # Prevent the error from propagating into your Streamlit app.
     pass
+st.write("Bot :",res)
