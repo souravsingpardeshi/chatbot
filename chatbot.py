@@ -54,18 +54,15 @@ def get_response(intents_list,intents_json):
             result = random.choice(i['responses'])
             break
     return result
-try:
-    st.markdown('<style>body{text-align:center;background-color:black;color:white;align-items:center;display:flex;flex-direction:column;}</style>', unsafe_allow_html=True)
-    st.title("College admission assistant")
-    st.markdown("@souravsing ")
-    st.image("https://media3.giphy.com/media/S60CrN9iMxFlyp7uM8/200w.webp?cid=ecf05e47938v1hebb1bs1m9uysov7g7iws0j52oqku2k0yua&rid=200w.webp")
-    st.markdown("Hi I'm Samonit")
-    #print("bot is live")
-    
-    message = st.text_input("You can start chat below")
-    ints = predict_class(message)
-    res = get_response(ints,intents)
-    st.write(res)
-except:
-  # Prevent the error from propagating into your Streamlit app.
-    pass
+
+st.markdown('<style>body{text-align:center;background-color:black;color:white;align-items:center;display:flex;flex-direction:column;}</style>', unsafe_allow_html=True)
+st.title("College admission assistant")
+st.markdown("@souravsing ")
+st.image("https://media3.giphy.com/media/S60CrN9iMxFlyp7uM8/200w.webp?cid=ecf05e47938v1hebb1bs1m9uysov7g7iws0j52oqku2k0yua&rid=200w.webp")
+st.markdown("Hi I'm Samonit")
+#print("bot is live")
+message = st.text_input("You can start chat below")
+ints = predict_class(message)
+res = get_response(ints,intents)
+st.write("Bot :",res)
+
