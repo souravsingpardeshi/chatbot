@@ -66,5 +66,5 @@ st.markdown("Hi I'm Samonit")
 message = st.text_input("You can start chat below")
 ints = predict_class(message)
 res = get_response(ints,intents)
-st.write("Bot :",res)
+st.success("Bot :",res)
 
