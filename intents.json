@@ -28,5 +28,20 @@
     "responses":["MAEER’s MIT College of Railway Engineering and Research At Post Jamgaon, Tal. Barshi, Dist. Solapur, Maharashtra"]},
      {"tag" : "contact",
     "patterns" : ["mail id","contact","phone number","office","human","admission"],
-    "responses":["info.mitcorer@mitpune.edu.in +91 8459974437 , +91 8459967882 +91 9561067308 , +91 9146891811"]}
+    "responses":["info.mitcorer@mitpune.edu.in +91 8459974437 , +91 8459967882 +91 9561067308 , +91 9146891811"]},
+    {"tag" : "hodcse",
+    "patterns" : ["hod cse","computer science hod","computer hod","head of depaartment of computer science"],
+    "responses":["Prof.Najim Sheikh"]},
+    {"tag" : "hodetc",
+    "patterns" : ["hod entc","hod E&tc","head of depaartment of electronics"],
+    "responses":["Prof.manure"]},
+    {"tag" : "hodciv",
+    "patterns" : ["hod civil","head of departmnt of civil"],
+    "responses":["Prof.vikas ganiger"]},
+    {"tag" : "hodmech",
+    "patterns" : ["hod mech","head of departmnt of mech"],
+    "responses":["Prof.Bhosale"]},
+     {"tag" : "open",
+    "patterns" : ["when can we visit college","college is open on"],
+    "responses":["college is working for all 7 days a week from 9.00am to 5.00pm"]}
 ]}

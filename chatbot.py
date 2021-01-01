@@ -15,7 +15,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
-st.set_page_config(page_title="souravs_sentiment_analysis_app")
+st.set_page_config(page_title="souravs_bot")
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 
@@ -58,7 +58,7 @@ def get_response(intents_list,intents_json):
     return result
 
 st.markdown('<style>body{text-align:center;background-color:black;color:white;align-items:center;display:flex;flex-direction:column;}</style>', unsafe_allow_html=True)
-st.title("College admission assistant")
+st.title("College Admission Assistant")
 st.markdown("@souravsing ")
 st.image("https://media3.giphy.com/media/S60CrN9iMxFlyp7uM8/200w.webp?cid=ecf05e47938v1hebb1bs1m9uysov7g7iws0j52oqku2k0yua&rid=200w.webp")
 st.markdown("Hi I'm Samonit")
