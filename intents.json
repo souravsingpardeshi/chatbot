@@ -49,5 +49,8 @@
     "responses":["EN-6901"]},
     {"tag" : "help",
     "patterns" : ["helpline","help","number","queries","assistant"],
-    "responses":["9420016346"]}
+    "responses":["9420016346"]},
+    {"tag" : "seats",
+    "patterns" : ["seats","quota","avialable seats"],
+    "responses":["60 seats are avialable for each branch"]}
 ]}
