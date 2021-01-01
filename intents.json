@@ -24,7 +24,7 @@
     "patterns" : ["college name"],
     "responses":["MIT College Of Railway Engineering And Reaserach,Barshi"]},
      {"tag" : "locatio",
-    "patterns" : ["situated at","location","located at","map"],
+    "patterns" : ["situated at","location","located at","located"],
     "responses":["MAEER’s MIT College of Railway Engineering and Research At Post Jamgaon, Tal. Barshi, Dist. Solapur, Maharashtra"]},
      {"tag" : "contact",
     "patterns" : ["mail id","contact","phone number","office","human","admission"],
@@ -43,5 +43,11 @@
     "responses":["Prof.Bhosale"]},
      {"tag" : "open",
     "patterns" : ["when can we visit college","college is open on"],
-    "responses":["college is working for all 7 days a week from 9.00am to 5.00pm"]}
+    "responses":["college is working for all 7 days a week from 9.00am to 5.00pm"]},
+    {"tag" : "DTE",
+    "patterns" : ["DTE","DTE code"],
+    "responses":["EN-6901"]},
+    {"tag" : "help",
+    "patterns" : ["helpline","help","number","queries","assistant"],
+    "responses":["9420016346"]}
 ]}
