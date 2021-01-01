@@ -6,7 +6,7 @@
     "patterns" : ["who made you","your owner"],
     "responses":["Souravsing made me","Souravsing is my master"]},
     {"tag" : "branches",
-    "patterns" : ["branches","how many branches you have","CSE","fields","civil","mech"],
+    "patterns" : ["branches","how many branches you have","fields"],
     "responses":["We offer 1.Computer Science and engineering 2.E& TC 3.Civil engineering 4.mech"]},
     {"tag" : "principle",
     "patterns" : ["who is principle?","principle","dean"],
